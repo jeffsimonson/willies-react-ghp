@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+
+  <title>Willie's Wine Bar & Cuisine</title>
+
+  <!-- Start Single Page Apps for GitHub Pages -->
+  <script type="text/javascript">
+    // Single Page Apps for GitHub Pages
+    // MIT License
+    // https://github.com/rafgraph/spa-github-pages
+    // This script checks to see if a redirect is present in the query string,
+    // converts it back into the correct url and adds it to the
+    // browser's history using window.history.replaceState(...),
+    // which won't cause the browser to attempt to load the new url.
+    // When the single page app is loaded further down in this file,
+    // the correct url will be waiting in the browser's history for
+    // the single page app to route accordingly.
+    (function (l) {
+      if (l.search[1] === '/') {
+        var decoded = l.search.slice(1).split('&').map(function (s) {
+          return s.replace(/~and~/g, '&')
+        }).join('?');
+        window.history.replaceState(null, null,
+          l.pathname.slice(0, -1) + decoded + l.hash
+        );
+      }
+    }(window.location))
+  </script>
+  <!-- End Single Page Apps for GitHub Pages -->
+
+</head>
+
+<body>
+  <div id="root"></div>
+  <script src="index.pack.js"></script>
+
+
+  <!--===============================================================================================-->
+  <script type="text/javascript" src="%PUBLIC_URL%/vendor/jquery/jquery-3.2.1.min.js"></script>
+  <!--===============================================================================================-->
+  <script type="text/javascript" src="%PUBLIC_URL%/vendor/animsition/js/animsition.min.js"></script>
+  <!--===============================================================================================-->
+  <script type="text/javascript" src="%PUBLIC_URL%/vendor/bootstrap/js/popper.js"></script>
+  <script type="text/javascript" src="%PUBLIC_URL%/vendor/bootstrap/js/bootstrap.min.js"></script>
+  <!--===============================================================================================-->
+  <script type="text/javascript" src="%PUBLIC_URL%/vendor/select2/select2.min.js"></script>
+  <!--===============================================================================================-->
+  <script type="text/javascript" src="%PUBLIC_URL%/vendor/slick/slick.min.js"></script>
+  <script type="text/javascript" src="%PUBLIC_URL%/js/slick-custom.js"></script>
+  <!--===============================================================================================-->
+  <script type="text/javascript" src="%PUBLIC_URL%/vendor/parallax100/parallax100.js"></script>
+  <script type="text/javascript">
+    $('.parallax100').parallax100(); 
+  </script>
+  <!--===============================================================================================-->
+  <script type="text/javascript" src="%PUBLIC_URL%/vendor/lightbox2/js/lightbox.min.js"></script>
+  <!--===============================================================================================-->
+  <script type="text/javascript" src="vendor/isotope/isotope.pkgd.min.js"></script>
+  <!--===============================================================================================-->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKFWBqlKAGCeS1rMVoaNlwyayu0e0YRes"></script>
+  <script type="text/javascript" src="%PUBLIC_URL%/js/map-custom.js"></script>
+  <!--===============================================================================================-->
+  <script type="text/javascript" src="%PUBLIC_URL%/js/main.js"></script>
+
+
+</body>
+
+</html>
