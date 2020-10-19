@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/willies-reimagined-react/precache-manifest.aa7d4a363457d7daa9cfb6acf30aedf9.js"
+  "/willies-reimagined-react/precache-manifest.50262a4ad8c27c2b8d365f73aa1716a2.js"
 );
 
 self.addEventListener('message', (event) => {

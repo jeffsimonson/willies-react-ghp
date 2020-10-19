@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "600aacd5ac556d321a65f42763953029",
+    "revision": "8f6417e03a13e20f712d011030e05143",
     "url": "/willies-reimagined-react/index.html"
   },
   {
-    "revision": "ec55106562c97f06c491",
+    "revision": "d588ece78c535876fef0",
     "url": "/willies-reimagined-react/static/css/main.129a2632.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/willies-reimagined-react/static/js/2.f9d33f11.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ec55106562c97f06c491",
-    "url": "/willies-reimagined-react/static/js/main.9828b18b.chunk.js"
+    "revision": "d588ece78c535876fef0",
+    "url": "/willies-reimagined-react/static/js/main.29e46003.chunk.js"
   },
   {
     "revision": "86f022a62f3dbdb42d0f",
